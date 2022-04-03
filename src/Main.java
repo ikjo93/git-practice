@@ -7,5 +7,10 @@ public class Main {
             numbers[i] = i;
             System.out.println(numbers[i]);
         }
+
+        for (int i = 0; i < numbers.length; i++) {
+            numbers[i] = numbers[i]*2;
+            System.out.println(numbers[i]);
+        }
     }
 }
